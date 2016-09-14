@@ -16,7 +16,7 @@
       // Layer with all the hotel location markers
       var ctaLayer = new google.maps.KmlLayer({
           //need to host kml file on public server which google can search for
-          url: 'http://max-peng.com/HBD29.kml'
+          url: 'https://raw.githubusercontent.com/pengcheng95/hbdmap/master/HBD.kml'
           , map: map
       });
       // Try HTML5 geolocation.
